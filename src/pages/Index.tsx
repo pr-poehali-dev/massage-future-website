@@ -263,7 +263,53 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="testimonials" className="py-20 px-6">
+      <section className="py-20 px-6">
+        <div className="container mx-auto max-w-4xl">
+          <Card className="bg-gradient-to-r from-gold/10 to-secondary/30 border-2 border-gold animate-fade-in">
+            <CardContent className="p-8">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div className="order-2 md:order-1">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Icon name="Heart" className="text-gold" size={32} />
+                    <h3 className="text-3xl font-heading font-bold text-primary">Социальная программа</h3>
+                  </div>
+                  <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                    Каждое воскресенье мы проводим <span className="font-semibold text-primary">бесплатные сеансы массажа</span> для 
+                    детей с особенностями развития.
+                  </p>
+                  <p className="text-muted-foreground mb-6">
+                    Наша миссия — помочь каждому ребёнку почувствовать заботу и получить профессиональную помощь, 
+                    независимо от финансовых возможностей семьи. Мы верим, что здоровье — это право каждого.
+                  </p>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <Icon name="Calendar" className="text-gold" size={18} />
+                      <span className="text-sm font-semibold">Каждое воскресенье</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Icon name="Gift" className="text-gold" size={18} />
+                      <span className="text-sm font-semibold">Полностью бесплатно</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Icon name="Phone" className="text-gold" size={18} />
+                      <span className="text-sm">Запись по телефону заранее</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="order-1 md:order-2">
+                  <img 
+                    src="https://cdn.poehali.dev/files/2fd8220f-4e01-456f-9448-a5e848350230.jpeg" 
+                    alt="Помощь детям" 
+                    className="rounded-lg shadow-xl w-full h-[350px] object-cover"
+                  />
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      <section id="testimonials" className="py-20 px-6 bg-secondary/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4">Отзывы клиентов</h2>
