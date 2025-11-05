@@ -144,41 +144,48 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-scale-in">
               <img 
-                src="https://cdn.poehali.dev/projects/435dc087-9cec-43c3-b2ba-eb4106c2910e/files/496826c0-fe0a-49ee-8784-3b0c846f4b53.jpg" 
-                alt="Специалист" 
+                src="https://cdn.poehali.dev/files/99ed6ca4-67a1-4bb8-8e35-8068f0217e69.jpeg" 
+                alt="Новоселов Михаил Сергеевич" 
                 className="rounded-lg shadow-2xl w-full h-[600px] object-cover"
               />
             </div>
             <div className="animate-fade-in">
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">О специалисте</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
+                <p className="text-lg font-semibold text-primary">
+                  Новоселов Михаил Сергеевич
+                </p>
                 <p className="text-lg">
-                  Елена Волкова — сертифицированный специалист с 12-летним опытом работы в области массажа 
-                  и нейрокинезиологии. Автор уникальных методик, основанных на синтезе классических 
-                  и современных подходов к телесной терапии.
+                  Сертифицированный массажист-кинезиолог с глубоким пониманием анатомии и физиологии человека. 
+                  Применяет комплексный подход, сочетая классические техники массажа с современными методами 
+                  кинезиологии для достижения максимального терапевтического эффекта.
                 </p>
                 <div className="border-l-2 border-gold pl-6 my-6">
                   <p className="italic text-lg">
-                    "Моя миссия — помочь каждому клиенту обрести гармонию между телом и разумом, 
-                    раскрыть природный потенциал здоровья через осознанное прикосновение"
+                    "Каждое тело уникально, и мой подход — найти индивидуальный путь к восстановлению баланса 
+                    и здоровья через грамотную работу с мышцами, суставами и нервной системой"
                   </p>
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <Icon name="Award" className="text-gold mt-1" size={20} />
-                    <p>Диплом международной ассоциации массажистов (IMA)</p>
+                    <p>Сертифицированный специалист по массажу и кинезиологии</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <Icon name="GraduationCap" className="text-gold mt-1" size={20} />
-                    <p>Сертификат по прикладной нейрокинезиологии</p>
+                    <p>Специализация на нейромышечных техниках</p>
                   </div>
                   <div className="flex items-start gap-3">
-                    <Icon name="Users" className="text-gold mt-1" size={20} />
-                    <p>Более 3000 успешных клиентов</p>
+                    <Icon name="Brain" className="text-gold mt-1" size={20} />
+                    <p>Работа с опорно-двигательным аппаратом</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Icon name="Heart" className="text-gold mt-1" size={20} />
+                    <p>Индивидуальный подход к каждому клиенту</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <Icon name="Star" className="text-gold mt-1" size={20} />
-                    <p>Постоянное обучение передовым техникам</p>
+                    <p>Регулярное повышение квалификации</p>
                   </div>
                 </div>
               </div>
@@ -403,7 +410,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Адрес</h3>
-                    <p className="text-muted-foreground">Москва, ул. Арбат, д. 15, этаж 3</p>
+                    <p className="text-muted-foreground">ул. 20-й Горнострелковой Дивизии, 16</p>
                   </div>
                 </div>
                 
