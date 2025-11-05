@@ -281,7 +281,7 @@ const Index = () => {
                     Наша миссия — помочь каждому ребёнку почувствовать заботу и получить профессиональную помощь, 
                     независимо от финансовых возможностей семьи. Мы верим, что здоровье — это право каждого.
                   </p>
-                  <div className="space-y-2">
+                  <div className="space-y-2 mb-6">
                     <div className="flex items-center gap-2">
                       <Icon name="Calendar" className="text-gold" size={18} />
                       <span className="text-sm font-semibold">Каждое воскресенье</span>
@@ -295,6 +295,14 @@ const Index = () => {
                       <span className="text-sm">Запись по телефону заранее</span>
                     </div>
                   </div>
+                  <Button 
+                    onClick={() => scrollToSection('contact')} 
+                    size="lg" 
+                    className="w-full md:w-auto bg-gold hover:bg-gold/90 text-primary"
+                  >
+                    <Icon name="Heart" className="mr-2" size={18} />
+                    Записаться на бесплатный сеанс
+                  </Button>
                 </div>
                 <div className="order-1 md:order-2">
                   <img 
