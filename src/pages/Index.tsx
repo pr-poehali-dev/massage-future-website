@@ -194,7 +194,76 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="testimonials" className="py-20 px-6 bg-secondary/30">
+      <section className="py-20 px-6 bg-secondary/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4">Наш кабинет</h2>
+            <p className="text-lg text-muted-foreground">Атмосфера спокойствия и профессионализма</p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="md:col-span-2 animate-scale-in">
+              <img 
+                src="https://cdn.poehali.dev/files/99ed6ca4-67a1-4bb8-8e35-8068f0217e69.jpeg" 
+                alt="Массажный кабинет" 
+                className="rounded-lg shadow-xl w-full h-[500px] object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="space-y-6">
+              <div className="animate-fade-in-up">
+                <img 
+                  src="https://cdn.poehali.dev/files/324b4489-1c2c-4bcd-b94f-00cbef4869ec.png" 
+                  alt="Массажная зона" 
+                  className="rounded-lg shadow-xl w-full h-[240px] object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+                <img 
+                  src="https://cdn.poehali.dev/files/c53318b6-2ff0-4b94-bd5d-5e2518ac0cee.jpeg" 
+                  alt="Рабочее место" 
+                  className="rounded-lg shadow-xl w-full h-[240px] object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
+          </div>
+          
+          <div className="grid md:grid-cols-4 gap-6 mt-12">
+            <Card className="bg-card/50 backdrop-blur hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
+                <Icon name="Sparkles" className="text-gold mx-auto mb-3" size={32} />
+                <p className="font-semibold mb-1">Премиальное оборудование</p>
+                <p className="text-sm text-muted-foreground">Современная техника</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-card/50 backdrop-blur hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
+                <Icon name="Shield" className="text-gold mx-auto mb-3" size={32} />
+                <p className="font-semibold mb-1">Стерильность</p>
+                <p className="text-sm text-muted-foreground">Безупречная чистота</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-card/50 backdrop-blur hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
+                <Icon name="Flower2" className="text-gold mx-auto mb-3" size={32} />
+                <p className="font-semibold mb-1">Уютная атмосфера</p>
+                <p className="text-sm text-muted-foreground">Комфорт и релакс</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-card/50 backdrop-blur hover:shadow-lg transition-shadow">
+              <CardContent className="pt-6 text-center">
+                <Icon name="Sun" className="text-gold mx-auto mb-3" size={32} />
+                <p className="font-semibold mb-1">Естественное освещение</p>
+                <p className="text-sm text-muted-foreground">Природный свет</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4">Отзывы клиентов</h2>
