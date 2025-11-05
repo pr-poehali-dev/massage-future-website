@@ -543,7 +543,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-muted-foreground">+7 (495) 123-45-67</p>
+                    <p className="text-muted-foreground">+7 (999) 656-12-34</p>
                   </div>
                 </div>
                 
@@ -652,7 +652,7 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm opacity-80">
-                <li>+7 (495) 123-45-67</li>
+                <li>+7 (999) 656-12-34</li>
                 <li>info@massage-future.ru</li>
                 <li>Москва, ул. Арбат, д. 15</li>
               </ul>
